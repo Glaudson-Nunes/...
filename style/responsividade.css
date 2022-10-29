@@ -1,0 +1,793 @@
+/*mobile*/
+@media screen and (max-width:376px){
+
+    .menu-mobile{
+
+        display: none;
+        transition: trasnform 1s;  
+        transition-delay: 5s;
+            
+    }
+
+    .container-cabecalho{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    
+    .menu ul{
+
+        display: none;
+    }
+
+    .menu-Hamburguer{
+
+        display: block;
+        background-color: white;
+        width: 25px;
+    }
+
+    .menu-Hamburguer2{
+
+       width: 25px;
+    }
+
+
+    .Img-primaria{
+
+        display: none;
+    }
+
+    .text-primario{
+
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .text-primario h1{
+
+        font-size: 1.4rem;
+        color: rgb(210, 210, 5);
+        letter-spacing: 2px;
+    }
+
+
+    .text-primario a{
+
+        width: 150px;
+        color:black;
+        padding: 20px 30px;
+        border-radius: 8px;
+        border: 2px solid rgba(255, 255, 255, 0.816);
+        background-color: rgba(255, 255, 1, 0.766);
+    }
+
+    .container-sobre{
+
+        width: 100%;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.322);
+        padding: 15px;
+        margin-top: -130px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre{/* INICIO SECTION SOBRE */
+
+        width: 100%;
+        height:950px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .text-sobre{
+
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);  
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        letter-spacing: 2PX;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 22px;
+        font-size: 1rem;
+        margin-top: 35px;
+    }
+
+    .Links-uteis{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: -200px;
+    }
+
+    .Links-uteis a{
+        width: 155px;
+        color:black;
+        padding: 20px 30px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 1, 0.766);
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .img-eu{
+
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .img-eu img{
+
+        border-radius: 8px;
+        width: 220px;
+    }
+
+
+    .experiencia{ /* INICIO SECTION EXPERIENCIAS */
+
+        width: 100%;
+        height: 930px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .expe{
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);   
+        
+    }
+
+    .expe h4{
+        font-size: 1rem;
+    }
+
+
+    .Descricao-projetos{ /* INICIO SECTION PROJETOS*/
+
+        width: 100%;
+        display: grid;
+        grid-template: 10fr/10fr;
+    }
+    
+    .cards{
+    
+        width: 100%;
+        height: auto;
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .cards img{
+
+        width: 100%;
+    
+    }
+
+    .cards h4{
+
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    
+    .cards p{
+
+        color:blueviolet;
+        font-weight: bolder;
+        font-size: 1.1rem;
+    }
+
+    .container-projetos{
+
+        background-color: rgba(0, 0, 0, 0.322);
+        margin-top: -100px;
+        
+    
+    }
+
+    .textPorjeto h2{
+
+        width: 100%;
+        text-align: center;
+        
+    }    
+}
+
+@media screen and (max-width:416px){
+
+    .menu-mobile{
+
+        display: none;
+        transition: trasnform 1s;  
+        transition-delay: 5s;
+        
+    }
+
+    .container-cabecalho{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    
+    .menu ul{
+
+        display: none;
+    }
+
+    .menu-Hamburguer{
+
+        display: block;
+        background-color: white;
+
+    }
+
+    .menu-Hamburguer2{
+
+        width: 25px;
+     }
+
+    .Img-primaria{
+
+        display: none;
+    }
+
+    .text-primario{
+
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .text-primario h1{
+
+        font-size: 1.7rem;
+        color: rgb(210, 210, 5);
+        letter-spacing: 2px;
+    }
+
+
+    .text-primario a{
+
+        width: 150px;
+        color:black;
+        padding: 20px 45px;
+        border-radius: 8px;
+        border: 2px solid rgba(255, 255, 255, 0.816);
+        background-color: rgba(255, 255, 1, 0.766);
+      
+    }
+
+    .container-sobre{
+
+        width: 100%;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.322);
+        padding: 15px;
+        margin-top: -160px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre{/* INICIO SECTION SOBRE */
+
+        width: 100%;
+        height:950px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .text-sobre{
+
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);  
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        letter-spacing: 1PX;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 22px;
+        font-size: 1.1rem;
+    }
+
+    .Links-uteis{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: -200px;
+    }
+
+    .Links-uteis a{
+
+        width: 160px;
+        color:black;
+        padding: 20px 50px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 1, 0.766);
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .img-eu{
+
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .img-eu img{
+
+        border-radius: 8px;
+        width: 220px;
+    }
+
+    .experiencia{ /* INICIO SECTION EXPERIENCIAS */
+
+        width: 100%;
+        height: 930px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .expe{
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);     
+    }
+
+
+    .Descricao-projetos{ /* INICIO SECTION PROJETOS*/
+
+        width: 100%;
+        display: grid;
+        grid-template: 10fr/10fr;
+    }
+    
+    .cards{
+    
+        width: 100%;
+        height: auto;
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .cards img{
+
+        width: 100%;
+    
+    }
+
+    .cards h4{
+
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    
+    .cards p{
+
+        color:blueviolet;
+        font-weight: bolder;
+        font-size: 1.1rem;
+    }
+
+    .container-projetos{
+
+        background-color: rgba(0, 0, 0, 0.322);
+        margin-top: -100px;
+    
+    }
+
+    .textPorjeto h2{
+
+        width: 100%;
+        text-align: center;
+        
+    }    
+}
+
+@media screen and (min-width:1200px){
+
+    .sobre{/* INICIO SECTION SOBRE */
+
+        width: 80%;
+        height: 530px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+    .text-sobre{
+    
+    
+        width: 80%;
+        color: rgba(204, 204, 204, 0.827);  
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        letter-spacing: 2PX;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 20px;
+        font-size: 1.1rem;
+        
+    }
+}
+
+@media screen and (max-width:1023px){
+    
+    .menu-mobile{
+
+        display: none;
+        transition: trasnform 1s;  
+        transition-delay: 5s;
+    }
+    .container-cabecalho{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    
+    .menu ul{
+
+        display: none;
+    }
+
+    .menu-Hamburguer{
+
+        display: block;
+        background-color: white;
+        width: 25px;
+
+    }
+
+    .menu-Hamburguer2{
+
+        width: 25px;
+     }
+
+
+    .Img-primaria{
+
+        display: none;
+    }
+
+    .text-primario{
+
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .text-primario h1{
+
+        font-size: 1.4rem;
+        color: rgb(210, 210, 5);
+        letter-spacing: 2px;
+    }
+
+
+    .text-primario a{
+
+        color:black;
+        padding: 20px 30px;
+        border-radius: 8px;
+        border: 2px solid rgba(255, 255, 255, 0.816);
+        background-color: rgba(255, 255, 1, 0.766);
+    }
+
+    .container-sobre{
+
+        width: 100%;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.322);
+        padding: 15px;
+        margin-top: -130px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre{/* INICIO SECTION SOBRE */
+
+        width: 100%;
+        height:950px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .text-sobre{
+
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);  
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        letter-spacing: 2PX;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 22px;
+        font-size: 1rem;
+        
+    }
+
+    .Links-uteis{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: -200px;
+    }
+
+    .Links-uteis a{
+
+        color:black;
+        padding: 20px 30px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 1, 0.766);
+        font-size: 1rem;
+    }
+
+    .img-eu{
+
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .img-eu img{
+
+        border-radius: 8px;
+        width: 220px;
+    }
+
+
+    .experiencia{ /* INICIO SECTION EXPERIENCIAS */
+
+        width: 100%;
+        height: 930px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .expe{
+
+        width: 100%;
+        color: rgba(204, 204, 204, 0.827);   
+        
+    }
+
+    .expe h4{
+        font-size: 1rem;
+    }
+
+
+    .Descricao-projetos{ /* INICIO SECTION PROJETOS*/
+
+        width: 100%;
+        display: grid;
+        grid-template: 10fr/10fr;
+    }
+    
+    .cards{
+    
+        width: 100%;
+        height: auto;
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .cards img{
+
+        width: 100%;
+    
+    }
+
+    .cards h4{
+
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    
+    .cards p{
+
+        color:blueviolet;
+        font-weight: bolder;
+        font-size: 1.1rem;
+    }
+
+    .container-projetos{
+
+        background-color: rgba(0, 0, 0, 0.322);
+        margin-top: -100px;
+        
+    
+    }
+
+    .textPorjeto h2{
+
+        width: 100%;
+        text-align: center;
+        
+    } 
+}
+
+
+@media screen and (min-width:2000px){
+
+    .menu li a{
+
+        font-size: 1.9rem;
+        color:white;
+    }
+    
+    .logo p{
+
+        font-size:2rem;
+    }
+
+    .text-primario{
+
+        font-size: 1.9rem;
+    }
+
+    .text-sobre{
+
+        font-size: 1.9rem;
+        line-height: 40px;   
+    
+    }
+
+    .Links-uteis{
+
+        margin-top: 30px;
+    }
+
+    .container-sobre{
+
+        height: 770px;
+    }
+
+    .Img-primaria img{
+
+        width: 700px;
+    }
+
+    .expe{
+
+        font-size: 1.9rem;  
+    }
+
+    .textExperiencia h4{
+        
+        font-size: 1.9rem;
+        line-height: 40px; 
+
+    }
+
+    .textExperiencia h1{
+
+        font-size: 2.6rem;
+    }
+    
+    .textPorjeto h2{
+
+        font-size: 2.6rem;
+    }
+
+    .projetos{
+
+        margin-top: 90px;
+    }
+
+    .cards img{
+
+        width: 600px;
+    }
+
+    .cards h2{
+
+        font-size: 2.9rem;
+    }
+
+    .cards h4{
+
+        font-size: 2rem;
+        line-height: 40px;
+
+    }
+
+    .cards p{
+
+        font-size: 2rem;
+
+    }
+
+    .button{
+
+        width: 400px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 2.2rem;
+    }
+
+    .rodape{
+
+        width: 100%;
+        height: 100px;
+      
+    }
+    
+    .rodape a{
+    
+        color: rgba(255, 255, 1, 0.941);
+        font-size: 3rem;
+    }
+
+}

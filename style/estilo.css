@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Raleway:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Raleway:wght@100&family=Righteous&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: 'Righteous', cursive;
+    background-color: #151515;
+}
+
+/* INICIO DO CABECALHO */
+.code{
+
+    font-family:'Righteous', cursive;
+    font-size: 1.5rem;
+    color:rgb(210, 210, 5);
+}
+
+.container-cabecalho{
+
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.441);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.636);
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-Hamburguer{
+
+    display: none;
+    cursor: pointer;
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.menu{
+
+    position: absolute;
+    right: 90px;
+}
+ 
+.menu ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.menu li a:hover{
+
+    color:rgb(135, 135, 135);
+    border-bottom: 1px solid yellow;
+}
+
+.menu li a{
+
+    font-size: 1.2rem;
+    color:white;
+}/* FIM DO CABECAIO*/
+
+.menu-mobile{
+
+    width: 250px;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top:230%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    background-color: #151515;
+    transition: trasnform 1s;  
+    transition-delay: 5s;
+}
+
+.menu-mobile li a {
+
+    font-size: 1.1rem;
+    color:white;
+}
+
+.Container-principal{/*INICIO SECTION PRINCIAPL*/
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-Hamburguer2{
+
+    display: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.text-primario{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+.text-primario h2{
+
+    font-size: 2rem;
+    color: rgba(204, 204, 204, 0.603);
+    letter-spacing: 2px;
+}
+
+.text-primario h1{
+
+    font-size: 2.4rem;
+    color: rgb(210, 210, 5);
+    letter-spacing: 2px;
+}
+
+.text-primario h3{
+    color: rgba(204, 204, 204, 0.603);   
+    letter-spacing: 2px;
+}
+
+.text-primario a{
+
+    color:black;
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.816);
+    background-color: rgba(255, 255, 1, 0.766);
+}
+
+.text-primario a:hover{
+
+    background-color: rgba(255, 255, 1, 0.948);
+
+}
+
+.links{
+
+    display: flex;
+    gap: 35px;
+}
+
+.git{
+
+    background-image: url('../icons/github.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}
+
+.link{
+
+    background-image: url('../icons/logotipo-do-linkedin.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}
+
+.Img-primaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+} /*FIM SECTION PRINCIPAL*/ 
+
+.sobre{/* INICIO SECTION SOBRE */
+
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text-sobre{
+
+
+    width: 50%;
+    color: rgba(204, 204, 204, 0.827);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    letter-spacing: 2PX;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+    font-size: 1.1rem;
+    
+}
+
+.img-eu{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-eu img{
+
+    border-radius: 8px;
+}
+
+.container-sobre{
+
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links-uteis{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Links-uteis a{
+
+    color:black;
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.816);
+    background-color: rgba(255, 255, 1, 0.766);
+}
+
+.Links-uteis a:hover{
+
+    background-color: rgba(255, 255, 1, 0.948);
+}
+
+.curriculo{
+
+    background-image: url('../icons/dados-da-nuvem.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}
+
+.email{
+
+    background-image: url('../icons/o-email.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}/* FIM SECTION SOBRE */
+
+.experiencia{ /* INICIO SECTION EXPERIENCIAS */
+
+    width: 70%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 90px;
+}
+
+.expe{
+
+    width: 20%;
+    margin-top: -350px;
+    color: rgba(204, 204, 204, 0.827);     
+}
+
+.textExperiencia{
+    width: 95%;
+    color: rgba(204, 204, 204, 0.827); 
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 34px;
+}
+
+.textExperiencia h4{
+
+    font-size: 1.1rem;
+    line-height: 30px;
+}/* FIM SECTION EXPERIENCIAS */
+
+.Descricao-projetos{ /* INICIO SECTION PROJETOS*/
+
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.cards{
+
+    width: 700px;
+    height: auto;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding: 25px;
+}
+
+.cards h4{
+
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.cards h2{
+
+    color:rgba(255, 255, 1, 0.941);
+
+}
+
+.cards img{
+
+    width: 450px;
+    
+    border-radius: 5px;
+}
+.cards a{
+
+    color:black;
+    font-weight: bolder;
+}
+
+.cards p{
+
+    color:blueviolet;
+    font-weight: bolder;
+}
+
+.button{
+
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(210, 210, 5);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.container-projetos{
+
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+
+}
+
+.textPorjeto h2{
+
+    color: rgba(204, 204, 204, 0.827); 
+    width: 40%;
+    text-align: center;
+} /* FIM SECTION PROJETOS*/
+
+.rodape{
+
+    width: 100%;
+    height: 70px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rodape a{
+
+    color: rgba(255, 255, 1, 0.941);
+}

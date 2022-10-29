@@ -1,0 +1,6 @@
+Nâo possuo experiência profissional ainda, mas estou buscando essa oportunidade
+                eu tenho um software rodando em uma aplicaçâo real, que basicamente ele salva items 
+                em uma lista, foi desenvolvido com java script puro, e esta hospedado no meu Github
+                o codigo com a descriçâo sobre o projeto, e isso ja me deu uma noçâo de como é desenvolver experiência
+                profissional, desenvolver soluçôes e correr contra o tempo, me deixando ainda mais com vontade de aprender
+                para melhorar as minhas futuras aplicaçôes.
